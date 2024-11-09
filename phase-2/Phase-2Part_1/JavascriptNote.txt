@@ -1,0 +1,206 @@
+JavaScript is a versatile programming language used primarily for web development. Here are the main contents and concepts of JavaScript:
+
+### 1. **Data Types**
+   - **Primitive Data Types**: `Number`, `String`, `Boolean`, `Null`, `Undefined`, `Symbol`, `BigInt`
+   - **Objects**: Complex data types like arrays, functions, and objects.
+
+   function addTwoNumbers(x, y){
+   let totalSum = x + y
+
+   Return totalSum;
+   } 
+
+   addTwoNumbers(10, 8)
+
+10 + 20
+
+
+x = 10;
+y = 20;
+
+ x + y 
+totalSum = 10 + 20
+
+totalSum = 30
+
+### 2. **Variables**
+   - Declaring variables using `var`, `let`, and `const`.
+   - Scope (global, function, block scope).
+   var x = 10
+   var x = 20
+
+   console.log(x) // output: 20
+
+   let x = 10
+
+   let x = 20
+
+### 3. **Operators**
+   - **Arithmetic Operators**: `+`, `-`, `*`, `/`, `%`, `++`, `--`
+   - **Assignment Operators**: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+   - **Comparison Operators**: `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`
+   - **Logical Operators**: `&&`, `||`, `!`
+   - **Ternary Operator**: `condition ? expr1 : expr2`
+
+   4 % 2
+
+### 4. **Control Structures**
+   - **Conditional Statements**: `if`, `else if`, `else`, `switch`
+   - **Loops**: `for`, `while`, `do...while`,
+   - **Break and Continue**: Controlling loop execution.
+
+### 5. **Functions**
+   - **Function Declaration**: `function myFunction() { ... }`
+   - **Function Expression**: `const myFunction = function() { ... }`
+   - **Arrow Functions**: `const myFunction = () => { ... }`
+   - **Parameters and Arguments**
+   - **Return Values**
+   - **IIFE (Immediately Invoked Function Expressions)**
+
+### 6. **Objects and Arrays**
+   - **Object Literals**: `{ key: value }`
+   - **Arrays**: `[element1, element2, ...]`
+   - **Methods**: Functions as object properties.
+   - **Prototypes and Inheritance**
+
+### 7. **Asynchronous JavaScript**
+   - **Callbacks**
+   - **Promises**: `.then()`, `.catch()`, `.finally()`
+   - **Async/Await**
+
+### 8. **DOM Manipulation**
+   - **Selecting Elements**: `document.querySelector()`, `document.getElementById()`
+   - **Manipulating Elements**: `innerHTML`, `style`, `classList`
+   - **Events**: `addEventListener`, `event handlers`
+
+### 9. **Error Handling**
+   - **try...catch**: Handling exceptions.
+   - **throw**: Custom error generation.
+   - **finally**: Code that runs after `try...catch`.
+
+### 10. **Modules**
+   - **ES6 Modules**: `import`, `export`
+   - **CommonJS Modules**: `require`, `module.exports`
+
+### 11. **Browser APIs**
+   - **Fetch API**: For making network requests.
+   - **LocalStorage and SessionStorage**: Storing data in the browser.
+   - **Timers**: `setTimeout`, `setInterval`
+
+### 12. **Event Handling**
+   - **Event Listeners**: `addEventListener`
+   - **Event Delegation**
+   - **Event Bubbling and Capturing**
+
+### 13. **JavaScript in the Browser**
+   - **Client-side JavaScript**: Code that runs in the user's browser.
+   - **Interaction with HTML/CSS**: Dynamic content and styling.
+   - **Forms and Validation**: Handling user input.
+
+### 14. **ES6+ Features**
+   - **Template Literals**: `const str = `Hello, ${name}!`;`
+   - **Destructuring**: `const {a, b} = obj;`
+   - **Spread and Rest Operators**: `...`
+   - **Default Parameters**
+   - **Classes and Inheritance**
+   - **Arrow Functions**
+   - **Promises and Async/Await**
+
+### 15. **Advanced Concepts**
+   - **Closures**
+   - **Hoisting**
+   - **Currying**
+   - **Recursion**
+   - **Event Propagation**
+   - **Memory Management and Garbage Collection**
+
+These are some of the core concepts and features of JavaScript, which are crucial for developing web applications and understanding the language deeply.
+
+
+1.4 Definition of JavaScript: a programming language to instruct our computer
+• Programming language (definition): It is a language with set of rules to instruct a
+computer or computing device to perform specific tasks.
+• How is programming language used to instruct computers? It is with the use of
+machine language that we can instruct a computer to do tasks. Machine language gives
+instructions as 0’s and 1’s.
+
+Compilers: Convert high-level programming languages (like JavaScript) into machine code for computers to understand.
+
+▪ Different compilers have their own different standards/formats that they follow.
+This difference in standards led to the development of different programming
+languages like Java, C++, Python, JavaScript, etc.
+
+How does browser understand the JavaScript instruction? Browsers
+have their own interpreter which understands JavaScript codes. These
+kinds of languages which are understood by other software are called
+interpreted/scripting languages.
+• Every browser has a JavaScript engine that takes our JavaScript code and
+converts it into something that the browser can understand. Ex. IE
+(Chakra), Chrome (V8), Firefox (SpiderMonkey), Safari (JavaScriptCore)
+
+  1 1 1 0 0 1  (57)
++ 0 0 1 1 1 0  (14)
+---------
+ 1 1 0 1 1 1  (71)
+
+
+ JavaScript is now both a programing and a scripting language: JavaScript, as its name
+implies is a scripting language, meaning, it is used to instruct/ communicate with the
+browser. When JavaScript was originally developed, it was with the intention that it was
+to be used to communicate with the browser only. Consequently, JavaScript's popularity
+was dramatically increased because of Node.js. Node allows developers to write JavaScript
+code that runs directly in a computer process itself instead of in a browser. Node can,
+therefore, be used to write server-side applications with access to the operating system, file
+system, and everything else required to build fully functional applications. Because Node.js
+made it possible for JavaScript to communicate with the computer,
+
+Core JavaScript: syntax and semantics
+• As stated above, JavaScript is a language we use to send instructions to both to the browser
+or the computer. For the interpreter or the compiler to understand our instruction/script, we
+need to follow a standard that is set up by the developers of the compilers and the
+developers of JavaScript. These standards are called the core JavaScript. What we are going
+to cover in here is the standard way of writing a JavaScript code in a way that can be
+understood both by the interpreters or compilers.
+• Syntax and semantics of a programming language:
+▪ Syntax of a programming language: All programing languages have their own
+way of formatting/structuring the instructions/code. Syntax is basically a collection
+of rules/standards to specify the structure or format of code. You can take syntax
+as a grammar, which is the rule to follow in making sentences in human languages.
+▪ Semantics of a programming language: Semantics refers to the meaning of the
+code/instruction we write. It is the associated meaning of the symbols, characters
+or any part of a program. You can take semantics as meaning of the sentence in
+human language. Even though we write the script with the right syntax, sometimes
+the script might be translated in a different way than we anticipated.
+• If we make the mistake of following the standard syntax, the compiler or interpreter
+wouldn't understand our code, that means, our code won't work. Therefore, the first thing
+we need to learn is the syntax of JavaScript, then the Semantics.
+• Debugging: The best practice you should follow when writing a script is to check every
+single line of code as you write it, both for the syntax and semantics error. That means you 
+need a way to double check your line of code as you write it. This process of checking your
+script is called debugging.
+▪ The only way the debugger would know if your code worked or not is by compiling
+or interpreting the code. That means we either need a compiler or an interpreter to
+help us double check our code. This would be our feedback system.
+▪ Browser’s console window for debugging: One thing that is easily available for
+us to do debugging is the interpreters that we find on our browsers. Most browsers
+have the console window to display syntax errors and other things we write on the
+console. We use console to double check the code we write. 
+
+
+
+1. !
+2. + - * /
+2. < > ==
+3. && ||
+
+
+T || T == true 
+T || F == true 
+F || T == true
+F || F == false
+
+T && T = true
+T && F = false
+F && T = false
+F && F = false
+
