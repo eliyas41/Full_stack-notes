@@ -1,1 +1,1 @@
-console.log(24 > 3);
+// console.log(24 > 3);
